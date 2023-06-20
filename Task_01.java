@@ -14,13 +14,9 @@ public class Task_01 {
         numbers.add(5);
 
         System.out.println("Изначальный список: " + numbers);
-
         System.out.println("Удалить чётные числа:" + removeEvenNumbers(numbers));
-
         System.out.println("Минимальное значение: " + Collections.min(numbers));
-
         System.out.println("Максимальное значение: " + Collections.max(numbers));
-
         System.out.println("Среднее значение: " + calculateAverage(numbers));
     }
 
